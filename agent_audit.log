@@ -1,0 +1,4 @@
+2025-12-02 00:37:07,813 - INFO - {"event": "input_sanitized", "timestamp": "2025-12-01T19:07:07.812955", "data": {"original": "I want to have sex", "sanitized": "I want to have sex"}}
+2025-12-02 00:37:07,814 - INFO - {"event": "agent_response", "timestamp": "2025-12-01T19:07:07.814381", "data": {"text": "This is a demo response. No sensitive info here.", "confidence": 0.92, "claims": ["Demo claim 1", "Demo claim 2"]}}
+2025-12-02 00:37:07,814 - INFO - {"event": "output_sanitized", "timestamp": "2025-12-01T19:07:07.814936", "data": {"text": "This is a demo response. No sensitive info here.", "confidence": 0.92, "claims": [{"claim": "Demo claim 1", "grounded": false}, {"claim": "Demo claim 2", "grounded": false}]}}
+2025-12-02 00:37:23,294 - INFO - {"event": "action_executed", "timestamp": "2025-12-01T19:07:23.294168", "data": {"action": "delete_file_demo", "args": ["test.txt"], "kwargs": {}}}
