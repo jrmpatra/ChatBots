@@ -1,4 +1,6 @@
 #pip install opentelemetry-api==1.39.0 opentelemetry-sdk==1.39.0 opentelemetry-exporter-otlp==1.39.0 opentelemetry-exporter-otlp-proto-grpc==1.39.0 opentelemetry-exporter-otlp-proto-http==1.39.0
+## To Start  .\myenv\Scripts\python.exe -m phoenix.server.main serve
+##pip install arize-phoenix
 
 from phoenix.otel import register
 from openinference.instrumentation.langchain import LangChainInstrumentor
@@ -51,3 +53,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
